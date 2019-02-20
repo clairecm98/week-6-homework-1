@@ -49,7 +49,7 @@ spotifyApi.clientCredentialsGrant()
 app.get('/search-track', function (request, response) {
   
   // Search for a track!
-  spotifyApi.searchTracks('track:proud of u', {limit: 1})
+  spotifyApi.searchTracks('track:DDU-DU DDU-DU', {limit: 1})
     .then(function(data) {
     
       // Send the first (only) track object
